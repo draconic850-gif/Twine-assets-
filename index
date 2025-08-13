@@ -1,23 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Twine Assets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twine Assets</title>
 </head>
 <body>
-    <h1>Twine Assets</h1>
+    <h1>Twine Game Assets</h1>
 
-    <h2>Images</h2>
-    <img src="images/example.png" alt="Example Image" width="300">
-    <p>Path for Twine: <code>images/example.png</code></p>
-
-    <h2>Music</h2>
+    <!-- Audio section -->
+    <h2>Background Music</h2>
     <audio controls>
-        <source src="birdsong.mp3" type="audio/mpeg">
+        <source src="bg-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
-	
-	<audio controls>
-        <source src="Musicfile.mp3" type="audio/mpeg">
+
+    <!-- Images section -->
+    <h2>Images</h2>
+    <img src="image1.png" alt="Image 1" width="300">
+    <img src="image2.png" alt="Image 2" width="300">
+
+    <p>All files here are publicly accessible for your Twine game.</p>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twine Assets</title>
+</head>
+<body>
+    <h1>Twine Game Assets</h1>
+
+    <!-- Audio section -->
+    <h2>Background Music</h2>
+    <audio controls>
+        <source src="bg-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
-    <p>Path for Twine: <code>audio/example.mp3</code></p>
+
+    <!-- Images section -->
+    <h2>Images</h2>
+    <img src="image1.png" alt="Image 1" width="300">
+    <img src="image2.png" alt="Image 2" width="300">
+
+    <p>All files here are publicly accessible for your Twine game.</p>
 </body>
 </html>
